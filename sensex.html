@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sensex Live</title>
+<style>
+  
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  border-image-source: "https://img.icons8.com/pastel-glyph/2x/search.png";
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 60%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid black;
+  margin-bottom: 12px;
+  border-radius: 25px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid rgb(0,123,255);
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: rgb(0,123,255);
+}
+</style>
+</head>
+<body>
+<center>
+    <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/BSE-SENSEX/" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js" async>
+    {
+    "symbol": "BSE:SENSEX",
+    "width": 1000,
+    "locale": "in",
+    "colorTheme": "light",
+    "isTransparent": false
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Script</th>
+    <th style="width:40%;">Open</th>
+  </tr>
+  <tr>
+    <td>Asian Paints</td>
+    <td> <a href="asianpaints.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Axis Bank</td>
+    <td> <a href="axisbank.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Bajaj Auto</td>
+    <td> <a href="bajajauto.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Bajaj Finance</td>
+    <td> <a href="bajajfinance.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Bajaj Finserv</td>
+    <td> <a href="bajajfinserv.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Bharti Airtel</td>
+    <td> <a href="bhartiairtel.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>HCL Tech</td>
+    <td> <a href="hcltech.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>HDFC</td>
+    <td> <a href="hdfc.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>HDFC Bank</td>
+    <td> <a href="hdfcbank.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Hindustan Unilever</td>
+    <td> <a href="hul.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>ICICI Bank</td>
+    <td> <a href="icicibk.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Indusind Bank</td>
+    <td> <a href="indusindbk.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Infosys</td>
+    <td> <a href="infosys.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>ITC</td>
+    <td> <a href="itc.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Kotak Mahindra Bank</td>
+    <td> <a href="kotakmahindrabk.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Larsen</td>
+    <td> <a href="lt.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>M&M</td>
+    <td> <a href="mahindra.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Maruti Suzuki</td>
+    <td> <a href="maruti.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Nestle</td>
+    <td> <a href="nestle.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>NTPC</td>
+    <td> <a href="ntpc.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>ONGC</td>
+    <td> <a href="ongc.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Powergrid Corp</td>
+    <td> <a href="powergrid.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Reliance</td>
+    <td> <a href="reliance.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>SBI</td>
+    <td> <a href="sbi.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Sun Pharma</td>
+    <td> <a href="sunpharma.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Tata Steel</td>
+    <td> <a href="tatasteel.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>TCS</td>
+    <td> <a href="tcs.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Tech Mahindra</td>
+    <td> <a href="techmahindra.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Titan Company</td>
+    <td> <a href="titancompany.html">Overview</a></td>
+  </tr>
+  <tr>
+    <td>Ultratech Cement</td>
+    <td> <a href="ultratechcement.html">Overview</a></td>
+  </tr>
+
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+</center>
+</body>
+</html>
